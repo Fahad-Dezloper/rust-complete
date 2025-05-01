@@ -6,6 +6,7 @@ mod structwithfn;
 mod enums;
 mod options;
 mod readfromfile;
+mod datetime;
 
 fn main() {
     is_even::run();
@@ -16,6 +17,7 @@ fn main() {
     enums::enums();
     options::options();
     readfromfile::readfromfile();
+    datetime::dateandtime();
 
     // println!("Hello, world!");
 }
