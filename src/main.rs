@@ -7,6 +7,8 @@ mod enums;
 mod options;
 mod readfromfile;
 mod datetime;
+mod owner;
+mod borrow;
 
 fn main() {
     is_even::run();
@@ -18,6 +20,8 @@ fn main() {
     options::options();
     readfromfile::readfromfile();
     datetime::dateandtime();
+    owner::owner();
+    borrow::borrow();
 
     // println!("Hello, world!");
 }
