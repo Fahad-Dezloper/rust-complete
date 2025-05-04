@@ -11,6 +11,7 @@ mod owner;
 mod borrow;
 mod vector;
 mod hashmaps;
+mod hashmapQues;
 
 fn main() {
     is_even::run();
@@ -26,6 +27,7 @@ fn main() {
     borrow::borrow();
     vector::vec();
     hashmaps::hash();
+    hashmapQues::hash_map_que();
 
     // println!("Hello, world!");
 }
