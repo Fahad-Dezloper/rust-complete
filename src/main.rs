@@ -12,6 +12,7 @@ mod borrow;
 mod vector;
 mod hashmaps;
 mod hashmapQues;
+mod iters;
 
 fn main() {
     is_even::run();
@@ -28,6 +29,7 @@ fn main() {
     vector::vec();
     hashmaps::hash();
     hashmapQues::hash_map_que();
+    iters::iters();
 
     // println!("Hello, world!");
 }
