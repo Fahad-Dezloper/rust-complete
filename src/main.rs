@@ -9,6 +9,8 @@ mod readfromfile;
 mod datetime;
 mod owner;
 mod borrow;
+mod vector;
+mod hashmaps;
 
 fn main() {
     is_even::run();
@@ -22,6 +24,8 @@ fn main() {
     datetime::dateandtime();
     owner::owner();
     borrow::borrow();
+    vector::vec();
+    hashmaps::hash();
 
     // println!("Hello, world!");
 }
