@@ -15,6 +15,7 @@ mod hashmapQues;
 mod iters;
 mod intoiters;
 mod stringSlice;
+mod generics;
 
 fn main() {
     is_even::run();
@@ -34,6 +35,7 @@ fn main() {
     iters::iters();
     intoiters::intoiters();
     stringSlice::StringSlice();
+    generics::largest();
 
     // println!("Hello, world!");
 }
