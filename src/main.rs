@@ -13,6 +13,7 @@ mod vector;
 mod hashmaps;
 mod hashmapQues;
 mod iters;
+mod intoiters;
 
 fn main() {
     is_even::run();
@@ -30,6 +31,7 @@ fn main() {
     hashmaps::hash();
     hashmapQues::hash_map_que();
     iters::iters();
+    intoiters::intoiters();
 
     // println!("Hello, world!");
 }
