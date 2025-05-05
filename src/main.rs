@@ -16,6 +16,7 @@ mod iters;
 mod intoiters;
 mod stringSlice;
 mod generics;
+mod traits;
 
 fn main() {
     is_even::run();
@@ -36,6 +37,7 @@ fn main() {
     intoiters::intoiters();
     stringSlice::StringSlice();
     generics::largest();
+    traits::tra();
 
     // println!("Hello, world!");
 }
