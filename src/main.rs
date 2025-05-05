@@ -14,6 +14,7 @@ mod hashmaps;
 mod hashmapQues;
 mod iters;
 mod intoiters;
+mod stringSlice;
 
 fn main() {
     is_even::run();
@@ -32,6 +33,7 @@ fn main() {
     hashmapQues::hash_map_que();
     iters::iters();
     intoiters::intoiters();
+    stringSlice::StringSlice();
 
     // println!("Hello, world!");
 }
