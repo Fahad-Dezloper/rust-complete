@@ -17,6 +17,7 @@ mod intoiters;
 mod stringSlice;
 mod generics;
 mod traits;
+mod lifetimes;
 
 fn main() {
     is_even::run();
@@ -38,6 +39,6 @@ fn main() {
     stringSlice::StringSlice();
     generics::largest();
     traits::tra();
-
+    lifetimes::lifetimes();
     // println!("Hello, world!");
 }
