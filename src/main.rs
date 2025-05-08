@@ -18,6 +18,7 @@ mod stringSlice;
 mod generics;
 mod traits;
 mod lifetimes;
+mod structswithlifetimes;
 
 fn main() {
     is_even::run();
@@ -40,5 +41,6 @@ fn main() {
     generics::largest();
     traits::tra();
     lifetimes::lifetimes();
+    structswithlifetimes::structswithlifetimes();
     // println!("Hello, world!");
 }
